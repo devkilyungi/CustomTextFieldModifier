@@ -14,6 +14,7 @@
 		B1C9F5C42BC00C6A00FF3FBB /* CustomTextFieldModifierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C9F5C32BC00C6A00FF3FBB /* CustomTextFieldModifierTests.swift */; };
 		B1C9F5CE2BC00C6A00FF3FBB /* CustomTextFieldModifierUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C9F5CD2BC00C6A00FF3FBB /* CustomTextFieldModifierUITests.swift */; };
 		B1C9F5D02BC00C6A00FF3FBB /* CustomTextFieldModifierUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C9F5CF2BC00C6A00FF3FBB /* CustomTextFieldModifierUITestsLaunchTests.swift */; };
+		B1C9F5DD2BC00C9000FF3FBB /* NumbersOnlyViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C9F5DC2BC00C9000FF3FBB /* NumbersOnlyViewModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		B1C9F5C92BC00C6A00FF3FBB /* CustomTextFieldModifierUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomTextFieldModifierUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1C9F5CD2BC00C6A00FF3FBB /* CustomTextFieldModifierUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextFieldModifierUITests.swift; sourceTree = "<group>"; };
 		B1C9F5CF2BC00C6A00FF3FBB /* CustomTextFieldModifierUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextFieldModifierUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B1C9F5DC2BC00C9000FF3FBB /* NumbersOnlyViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersOnlyViewModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,9 +96,10 @@
 		B1C9F5B12BC00C6700FF3FBB /* CustomTextFieldModifier */ = {
 			isa = PBXGroup;
 			children = (
-				B1C9F5B22BC00C6700FF3FBB /* CustomTextFieldModifierApp.swift */,
-				B1C9F5B42BC00C6700FF3FBB /* ContentView.swift */,
 				B1C9F5B62BC00C6A00FF3FBB /* Assets.xcassets */,
+				B1C9F5B42BC00C6700FF3FBB /* ContentView.swift */,
+				B1C9F5B22BC00C6700FF3FBB /* CustomTextFieldModifierApp.swift */,
+				B1C9F5DC2BC00C9000FF3FBB /* NumbersOnlyViewModifier.swift */,
 				B1C9F5B82BC00C6A00FF3FBB /* Preview Content */,
 			);
 			path = CustomTextFieldModifier;
@@ -259,6 +262,7 @@
 			files = (
 				B1C9F5B52BC00C6700FF3FBB /* ContentView.swift in Sources */,
 				B1C9F5B32BC00C6700FF3FBB /* CustomTextFieldModifierApp.swift in Sources */,
+				B1C9F5DD2BC00C9000FF3FBB /* NumbersOnlyViewModifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
